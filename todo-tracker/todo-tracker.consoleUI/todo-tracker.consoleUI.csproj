@@ -10,8 +10,14 @@
 
   <ItemGroup>
     <None Remove="ConsoleManager\" />
+    <None Remove="ProgramManager\" />
+    <None Remove="Ninject" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ConsoleManager\" />
+    <Folder Include="ProgramManager\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.6" />
   </ItemGroup>
 </Project>

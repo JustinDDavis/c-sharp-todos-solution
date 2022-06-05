@@ -1,5 +1,5 @@
 ﻿using System;
-namespace todo_tracker.consoleUI
+namespace todo_tracker.consoleUI.ConsoleManager
 {
 	public interface IConsoleManager
 	{
